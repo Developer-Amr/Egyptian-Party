@@ -1,0 +1,80 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+}
+#home{
+    background-image: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)), url(../images/events-heavenly-header.jpeg);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
+#home h1{
+    font-size: 60px;
+}
+.leftMenu a , i{
+    transition: all 0.3s;
+}
+.leftMenu a:hover, i:hover{
+    color: rgba(214, 46, 51 , 0.4) !important;
+}
+.sideNav i, .openMenu{
+    cursor: pointer;
+}
+#home .openMenu{
+    left: -204.562px;
+}
+.sideNav{
+    left: -204.562px;
+    top: o;
+}
+/* end home */
+/* start singers */
+#singers h3{
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+}
+#singers p{
+    background-color: #ccc;
+}
+#singers div{
+    display: none;
+}
+/* end singers */
+/* start time-remaining */
+#time-remaining{
+    background-image: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)), url(../images/invitation-2508607__340.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#time-remaining span{
+    border: 1px white solid;
+    width: 250px;
+    /* height: 200px; */
+}
+/* end time-remaining */
+/* start  contact*/
+#contact h5{
+    font-weight: 900;
+}
+#contact input , textarea{
+    border-radius: 0 !important;
+}
+#contact textarea{
+    height: 200px !important;
+}
+#contact button{
+    border-radius: 0%;
+}
+#contact .icons i{
+    border: 1px #777 solid;
+    width: 35px;
+}
+#contact .icons i:hover{
+    color: white;
+    background-color: #D62E33;
+    border-color: #D62E33;
+}
